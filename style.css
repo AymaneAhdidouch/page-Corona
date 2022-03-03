@@ -1,0 +1,371 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 90%;
+    margin: auto;
+}
+
+
+/*--------------------------------------------------------------*/
+
+
+header{
+    background-image: url(images/haeder.jpg);
+    width: 100%;
+    padding-bottom: 85px;
+}
+.headerhome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.w{
+    width: 90%;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+ul li{
+    list-style-type:none;
+}
+.headerhome a:hover{
+    color: rgb(92, 245, 194);
+}
+
+.bodyhome{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.left{
+    flex-basis: 50%;
+    text-align: justify;
+    padding-top: 75px;
+}
+
+.left h2{
+    color:  rgb(92, 245, 194);
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.left h1{
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+.right img{
+    margin-right: 42px;
+}
+.left p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.left #p{
+    margin-bottom:25px;
+}
+button{
+    background-color: rgb(92, 245, 194);
+    padding: 15px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+}
+a{
+    font-size: 17px;
+    color: navy;
+    text-decoration: none;
+}
+
+
+/*--------------------------------- How Virus Spread -------------------------------*/
+
+
+.headersection{
+    text-align: center;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 37px;
+    width: 80%;
+}
+.headersection h1{
+    margin-bottom: 22px;
+    font-size: 35px;
+}
+.headersection p {
+    line-height: 25px;
+}
+.bodysection{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+#section{
+    width: 90%;
+    margin: auto;
+}
+p{
+    font-size: 17px;
+}
+.bodysection .col{
+    flex-basis: 30%;
+}
+.col h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.col p{
+    line-height: 25px;
+    font-size: 17px;
+}
+
+
+/*----------------------------------- What is CoronaVirus?----------------------------*/
+
+
+#section1{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.section1col1{
+    flex-basis: 45%;
+    margin-top: 80px;
+}
+.section1col2{
+    flex-basis: 45%;
+}
+.section1col1 h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.section1col1 p {
+    line-height: 25px;
+    font-size: 17px;
+}
+.section1col1 #p{
+    font-size: 17px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+/*------------------------------ Coronavirus Symptoms -------------------------------*/
+
+
+#section2{
+    padding-bottom: 55px;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(1, 1, 47, 0.938);
+}
+
+.bodysection2 .col{
+    display: flex;    
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bodysection2 .row{
+    flex-basis: 30%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+
+}
+#section2 .headersection{
+    color: white;
+    padding-top: 80px;
+    width: 90%;
+}
+.bodysection2 .col .row h2{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.footersection2{
+    background-color: rgba(176, 188, 201, 0.39);
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 27px;
+}
+.footersection2 p{
+    color: #456345;
+    margin-top: 5px;
+    font-size: 17px;
+}
+#section3{
+    padding-bottom: 55px;
+    width: 90%;
+    margin: auto;
+}
+
+
+/*---------------------------------- Prevention --------------------------------------*/
+
+
+#prevention{
+    width: 90%;
+    margin: auto;
+}
+#prevention .headersection{
+    width: 80%;
+}
+.bodyprevention{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.bodyprevention .col{
+    flex-basis: 22%;
+}
+
+
+/*----------------------------------- Contact ---------------------------------------*/
+
+
+form tbody tr td label{
+    font-size: 20px;
+    font-weight: 600;
+}
+form tbody tr td label span{
+    color: red;
+}
+form tbody tr td h1{
+    padding-bottom: 30px;
+    font-size: 36px;
+}
+form tbody tr td{
+    width: 400px;
+    padding-bottom: 15px;
+} 
+form tbody tr{
+    border: 1px #456345 solid;
+}
+#email,#subject, #name{
+    width: 600px;
+    height: 30px;
+    outline: none;
+}
+#name:focus{
+    border: 3px rgb(92, 245, 194) solid;
+}
+#email:focus{
+    border: 3px rgb(92, 245, 194) solid;
+}
+#subject:focus{
+    border: 3px rgb(92, 245, 194) solid;
+}
+#message:focus{
+    border: 3px rgb(92, 245, 194) solid;
+}
+
+#message{
+    outline: none;
+}
+form table{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#btn{
+    font-size: 18px;
+    font-weight: 600;
+}
+form{
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgba(176, 188, 201, 0.39);
+}
+
+#file{
+    font-size: 18px;
+}
+::-webkit-file-upload-button{
+    background-color: rgb(92, 245, 194);
+    padding: 15px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/*------------------------------------- Footer ----------------------------------------*/
+
+footer{
+    background-color: rgba(1, 1, 47, 0.952);
+    color: #a7a7a7;
+    padding: 100px;
+    /*margin-bottom: 100px;*/
+}
+footer ul li a{
+    text-decoration: none;
+    color: #a7a7a7;
+}
+.footercol1 h1{
+    color:  rgb(92, 245, 194);
+    margin-bottom: 15px;
+}
+footer p{
+    font-size: 18px;
+    line-height: 36px;
+}
+.footercol1{
+    display: flex;
+    justify-content: space-around;
+}
+.footerrow1,.footerrow2,.footerrow3,.footerrow4{
+    flex-basis: 23%;
+}
+.footerrow4{
+    display: flex;
+    flex-direction: column;
+}
+.footerrow4 a{
+    color: #a7a7a7;
+}
+.footerrow4 img{
+    margin-right: 15px;
+}
+.footerrow4 #socialmedia{
+    position: relative;
+    bottom: 9px;
+    font-size: 18px;
+}
+.footercol2{
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+.end{
+    color:  rgb(92, 245, 194);
+}
+footer a:hover{
+    color: rgb(92, 245, 194);
+}
+.footerrow2 ul li a{
+    line-height: 35px;
+    font-size: 18px;
+}
